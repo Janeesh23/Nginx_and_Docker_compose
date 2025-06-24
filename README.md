@@ -60,6 +60,7 @@ The system exposes both services on a single port (`localhost:8080`) with **path
    You can run the provided script to test routing and health:
 
    ```bash
+   chmod +x test.sh
    ./test.sh
    ```
 
