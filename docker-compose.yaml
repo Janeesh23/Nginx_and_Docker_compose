@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   service_1:
     build:
@@ -36,3 +34,5 @@ services:
         condition: service_healthy
       service_2:
         condition: service_healthy
+    environment:
+      - TZ=Asia/Kolkata
